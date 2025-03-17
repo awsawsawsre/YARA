@@ -1,4 +1,5 @@
 # YARA
+***************************************************************
 High-Level Threat Detection Architecture ( Backend with Python)
 ***************************************************************
 
@@ -13,7 +14,7 @@ Automated Response (/isolate-host) → Sends a request to isolate compromised ho
 Memory Scanning (/scan-memory) → Uses YARA rules to detect malicious patterns
 Network Monitoring (/network-monitor) → Captures live packets using Scapy
 
-
+*****************************************************************
 Live Dashboard → React frontend with real-time WebSocket alerts
 *****************************************************************
 Threat Correlation: Multi-source analysis, MITRE ATT&CK mapping
